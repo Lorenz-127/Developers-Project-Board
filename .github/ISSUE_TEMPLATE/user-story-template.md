@@ -4,7 +4,6 @@ about: This is the default user story template
 title: USER STORY <TITLE>
 labels: ''
 assignees: ''
-story-points: ''
 
 ---
 
