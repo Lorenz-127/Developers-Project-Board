@@ -1,9 +1,10 @@
 ---
-name: User Story Template
+name: Issue Template
 about: This is the default user story template
-title: ''
+title: USER STORY <TITLE>
 labels: ''
 assignees: ''
+story-points: ''
 
 ---
 
