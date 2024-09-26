@@ -166,9 +166,71 @@ By using Agile methodology, I was able to:
 
 ## Version Control
 
-## Version Control
-
 ## Forking and Local Setup
+
+If you'd like to fork this repository and run it locally, follow these steps:
+
+1. **Fork the Repository**:
+   - Navigate to the GitHub repository: [Developers Project Board](https://github.com/Lorenz-127/PP4-Project-Board)
+   - In the top-right corner of the page, click the "Fork" button.
+   - This will create a copy of the repository in your GitHub account.
+
+2. **Clone Your Fork**:
+   - On your forked repository page, click the "Code" button and copy the URL.
+   - Open your terminal and run:
+     ```
+     git clone [URL you just copied]
+     ```
+   - This creates a local copy of the repository on your machine.
+
+3. **Set Up Virtual Environment**:
+   - Navigate into the project directory:
+     ```
+     cd [project directory name]
+     ```
+   - Create a virtual environment:
+     ```
+     python -m venv venv
+     ```
+   - Activate the virtual environment:
+     - On Windows: `venv\Scripts\activate`
+     - On macOS and Linux: `source venv/bin/activate`
+
+4. **Install Dependencies**:
+   - With your virtual environment activated, install the required packages:
+     ```
+     pip install -r requirements.txt
+     ```
+
+5. **Set Up Environment Variables**:
+   - Create a `env.py` file in the root directory of the project.
+   - Add the following variables (replace with your actual values):
+     ```
+     SECRET_KEY=your_secret_key
+     DATABASE_URL=your_database_url
+     CLOUDINARY_URL=your_cloudinary_url
+     DEBUG=True
+     ```
+    Important Notes: 
+    - Make sure to set `DEBUG=True` for local development and testing in `env.py`. In `settings.py`, DEBUG mode will be automatically recognized for the development environment based on the presence of the `DEBUG` variable in `env.py`.
+    - Remember to never commit the `env.py` file or any sensitive information to version control. If you plan to deploy your fork, make sure to set up the necessary environment variables in your deployment environment.
+
+6. **Apply Migrations**:
+   - Run the following commands to apply database migrations:
+     ```
+     python manage.py makemigrations
+     python manage.py migrate
+     ```
+
+7. **Run the Development Server**:
+   - Start the Django development server:
+     ```
+     python manage.py runserver
+     ```
+   - Open a web browser and navigate to `http://127.0.0.1:8000/` to view the application.
+
+[Go to Table of Contents](#table-of-contents)
+
 
 ## Testing
 
