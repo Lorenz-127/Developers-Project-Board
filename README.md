@@ -1,18 +1,12 @@
 # Title
-
-## Subtitle
-
-### Project Overview
-
-### Key Features
-
-### Target Audience
+Developers Project Board
 
 ## Table of Contents
 
-1. [Features](#features)
-   - [Key Features Summary](#key-features-summary)
-   - [Additional Features Summary](#additional-features-summary)
+01. [**Project Rationale**](#project-rationale)
+    - [Key Project Goals](#key-project-goals)
+    - [Target Audience](#target-audience)
+    - [User Stories](#user-stories)
 
 2. [User Experience (UX)](#user-experience-ux)
    - [Project Goals](#project-goals)
@@ -56,21 +50,84 @@
     - [Honourable Mentions](#honourable-mentions)
     - [Note on code used from third-party sources](#note-on-code-used-from-third-party-sources)
 
-## Features
 
-### Key Features Summary
+## Project Rationale
 
-### Additional Features Summary
+Developers Project Board is a full-stack web application designed to provide a powerful, intuitive task management solution specifically tailored for developers. This project aims to combine the visual simplicity of a kanban-style interface with advanced features typically found in professional project management tools, offering a unique platform for individuals and teams to boost their productivity in software development projects.
 
-## User Experience (UX)
+### Key Project Goals
 
-### Project Goals
+1. Develop a responsive and user-friendly web application that can handle complex task management efficiently for software development projects.
+2. Implement advanced features such as board customization, task prioritization, and team collaboration while maintaining an intuitive user interface.
+3. Create a flexible data model that allows for future scalability and potential integration with other development tools.
 
 #### Site Owner Goals
 
+- Create a user-friendly agile management platform for developers
+- Provide a secure and reliable service
+- Encourage user engagement and retention
+- Establish a foundation for future feature expansion
+
 #### User Goals
 
+- Easily organize and manage tasks and software development projects
+- Collaborate with team members efficiently
+- Access task information from any device
+- Customize boards and lists to fit specific development workflow needs
+
 ### User Stories
+
+1. Emma - The Tech Project Manager
+
+    - Demographics:
+        - Age: 32
+        - Occupation: Project Manager at a software development company
+        - Location: Urban area, manages a hybrid team (remote and in-office)
+
+    - Background:
+        - Experienced in using various project management tools
+        - Manages multiple software development projects simultaneously
+        - Values visual organization and clear communication in project tracking
+
+    - Motivations and Goals:
+        - Wants to streamline development workflows and improve team collaboration
+        - Needs to categorize tasks by project phase, assign team members, and set priorities
+        - Aims to improve project visibility and track team productivity
+
+    - Detailed User Journey:
+        Emma starts her day by logging into Developers Project Board. She quickly creates a new board for an upcoming software project, setting up lists for different development phases (e.g., Backlog, In Progress, Testing, Done). Throughout the day, she adds new tasks, assigns them to team members, and sets due dates. She uses the board's customization features to color-code tasks by priority. During team meetings, Emma shares the board to discuss progress and adjust workflows as needed.
+
+    - User Benefits:
+        - Visual representation of development workflows enhances team understanding
+        - Easy task assignment and priority setting improves project management
+        - Real-time updates and collaboration features keep the development team aligned
+
+2. Alex - The Freelance Developer
+
+    - Demographics:
+        - Age: 28
+        - Occupation: Fulltime freelance web developer
+        - Location: Works remotely, frequently travels
+
+    - Background:
+        - Comfortable with various development tools and project management software
+        - Juggles multiple client projects with personal development goals
+        - Prefers flexible, accessible tools that work across devices
+
+    - Motivations and Goals:
+        - Needs a system to manage both client work and personal coding projects efficiently
+        - Wants to prioritize tasks effectively to balance multiple responsibilities
+        - Aims to improve time management and maintain a clear overview of all ongoing development projects
+
+    - Detailed User Journey:
+        Alex begins his week by reviewing his Developers Project Board dashboard. He has separate boards for each client project and one for personal development goals. He adds new tasks related to ongoing projects, sets due dates, and prioritizes his workload for the week. Throughout the day, he uses the mobile version of Developers Project Board to quickly add or modify tasks as new ideas or client requests come in. He regularly uses the filtering and search features to focus on the most critical tasks across all his development boards.
+
+    - User Benefits:
+        - Centralized platform for managing both client and personal development projects
+        - Flexibility to access and update tasks from any device
+        - Visual organization helps maintain a clear overview of multiple ongoing coding projects
+
+[Back to Top](#table-of-contents)
 
 ### Design Choices
 #### Color Scheme
@@ -87,9 +144,7 @@
 ## Information Architecture
 ### Flowchart
 ### Database Schema (ERD Diagram)
-
 ### Data Models Description
-
 ### Database Relationships
 
 ## Technologies Used
@@ -100,7 +155,7 @@
 
 ## Agile Methodology
 ### Project Management
-### User Stories
+### Issues
 
 User Stories were created as GitHub Issues and managed through the project board. Each user story was assigned a priority label using the MoSCoW method:
 
