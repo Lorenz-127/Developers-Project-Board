@@ -131,6 +131,20 @@ Developers Project Board is a full-stack web application designed to provide a p
 
 ### Design Choices
 #### Color Scheme
+
+![Developers Project Board Color Palette](/assets/readme/PP4-Colors.png)
+
+The color palette is designed to create a professional, calming, and easy-to-use interface:
+
+- Slate Gray (#708090) serves as the main background color, providing a neutral base for the application.
+- Dark Slate Gray (#2F4F4F) is used for the header and primary interactive elements, offering a strong contrast.
+- Dark Slate Gray variants with different opacities (#2F4F4F6E at 43% and #2F4F4F94 at 58%) are used for list backgrounds and board tiles, creating depth and hierarchy.
+- Very Dark Blue (#091E4240, 25% opacity) is used for card backgrounds, adding subtle depth to the interface.
+- Light Gray (#F5F5F5B5, 71% opacity) is used for text and icons to ensure readability against darker backgrounds.
+
+This color scheme creates a balanced, professional look while ensuring good contrast and readability throughout the application. \
+The use of opacity in several colors allows for a layered design that adds visual interest without compromising usability.
+
 #### Typography
 #### Imagery
 
